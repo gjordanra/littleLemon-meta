@@ -1,7 +1,8 @@
+
 function Main () {
     return(
         <>
-            <main>Main component</main>
+            <main className="displayTitle">Main component</main>
         </>
     );
 
