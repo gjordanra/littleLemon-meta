@@ -1,9 +1,10 @@
+import "./nav.css";
 export const Nav = () => {
     return (
         <>
-        <nav>
+        <nav className="nav">
             <ul>
-            <img src="/assets/Logo.svg" alt="Little Lemon logo" />
+            
                 <li><a href="/#">Home</a></li>
                 <li><a href="/#">Menu</a></li>
                 <li><a href="/#">Reservations</a></li>

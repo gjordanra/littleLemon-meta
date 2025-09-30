@@ -1,0 +1,36 @@
+:root{
+    --primary-brand-color: #f4ce14 ;
+    --primary-grey-color: #495e57;
+}
+
+.displaytitle {
+    font-family: 'Markazi Text';
+    font-size: 64px;
+    font-weight:500;
+}
+
+.subtitle {
+  font-family: 'Markazi Text';
+    font-size: 40px;
+    font-weight:400;
+}
+
+.leadtext {
+  font-family: 'Karla';
+    font-size: 18px;
+    font-weight:400;
+}
+
+.sectiontitle {
+   font-family: 'Karla';
+    font-size: 20px;
+    font-weight:800;
+    text-transform: uppercase;
+}
+
+.cardtitle {
+   font-family: 'Karla';
+    font-size: 18px;
+    font-weight:700;
+}
+

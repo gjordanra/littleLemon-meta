@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.nav ul li {
+    margin: 16px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}

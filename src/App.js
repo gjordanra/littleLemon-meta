@@ -1,13 +1,16 @@
-import { Header } from "./components/header";
-import Main from "./components/main";
-import {Footer} from "./components/footer";
+import { Header } from "./components/header/header";
+import Main from "./components/main/main";
+import {Footer} from "./components/footer/footer";
+import './CSS/App.css';
 
 function App() {
   return (
     <>
-    <Header/>
-    <Main>Main</Main>
-    <Footer/>
+      <div className="content">
+        <Header/>
+        <Main>Main</Main>
+        <Footer/>
+      </div>
     </>
   );
 }
