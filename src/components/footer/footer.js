@@ -3,7 +3,7 @@ import "./footer.css";
 export const Footer = () => {
     return (
         <>
-            <footer className="footer">The footer</footer>
+            <footer className="footer">logo doormat navigation contacts details social media links</footer>
         </>
     );
 };

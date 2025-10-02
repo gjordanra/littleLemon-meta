@@ -2,6 +2,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
-    margin: 1rem;
+    align-items: center;
+    background-color: blue;
+}
+.header > div{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: rgb(232, 232, 252);
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
 }
