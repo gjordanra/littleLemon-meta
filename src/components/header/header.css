@@ -11,6 +11,7 @@
     width: 80%;
     background-color: rgb(232, 232, 252);
     justify-content: space-between;
+    padding: 0 1rem;
 }
 .logo {
     width: 200px;
