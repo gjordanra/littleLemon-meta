@@ -37,8 +37,11 @@
 
 .primary-button {
   background-color: var(--primary-brand-color);
-  height: 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  height: 48px;
   border: none;
-  border-radius: 0.5rem;
-  width: 160px;
+  border-radius: 1rem;
+  width: 200px;
+  padding: 2 0rem;
 }

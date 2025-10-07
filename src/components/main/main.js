@@ -3,7 +3,7 @@ function Main () {
     return(
         <>
             <main className="main displaytitle">
-                <div>
+                <div id ="classspecialstitle">
                     <h2>This week specials</h2>
                     <button className="primary-button">Online menu</button></div>
                 <div>
