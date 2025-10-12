@@ -8,12 +8,15 @@
    grid-column: span 3;
    width: 100%;
 }
+.hero {
+   grid-column: span 3;
+   width: auto;
+   border: 1px red solid;
+}
 .main {
    grid-column: span 3;
-   grid-row: span 2;
    width: 100%;
-   background-color: rgb(161, 163, 159);
-   border: 1px black solid;
+   background-color: blueviolet;
 }
 .footer {
    grid-column: span 3;

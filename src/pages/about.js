@@ -1,10 +1,10 @@
 import Main from "../components/main/main";
+
 function About () {
     return (
     <>
-    <Main/>
-        Soy about
-        
+        <Main/>
+        <h1>Soy about the company</h1>
     </>
     );
  };

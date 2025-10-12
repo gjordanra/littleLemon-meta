@@ -1,0 +1,60 @@
+.formcontain{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.bookingform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1rem;
+
+}
+
+.bookingform input{
+    font-size: 1.5rem;
+    border-width: 0.05rem;
+    
+    border-color: rgb(114, 113, 111);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.bookingform option{
+    font-size: 1.5rem;
+}
+
+.bookingform select{
+    font-size: 1.5rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color: rgb(75, 65, 45);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.bookingform select:focus {
+    border-color: rgb(80, 196, 13);
+}
+
+.bookingform label {
+    font-size: 1.5rem;
+}
+
+.bookingform input[type="submit"] {
+    font-size: 2rem;
+    height: 4rem;
+    background-color: var(--primary-brand-color);
+    border-color: chocolate;
+} 
+
+.bookingform input[type="text"]:focus {
+    border-color: rgb(80, 196, 13);
+}
+
+.bookingform input[type="date"]:focus {
+    border-color: rgb(80, 196, 13);
+    border-width: 0.05rem;
+}
