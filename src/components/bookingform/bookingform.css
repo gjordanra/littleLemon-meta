@@ -5,19 +5,18 @@
     justify-content: center;
     align-items: center;
 }
+
 .bookingform {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     gap: 1rem;
-
 }
 
 .bookingform input{
     font-size: 1.5rem;
     border-width: 0.05rem;
-    
     border-color: rgb(114, 113, 111);
     border-radius: 0.5rem;
     padding: 1rem;
@@ -43,12 +42,21 @@
     font-size: 1.5rem;
 }
 
-.bookingform input[type="submit"] {
+.bookingform button {
+    color: black;
     font-size: 2rem;
     height: 4rem;
     background-color: var(--primary-brand-color);
-    border-color: chocolate;
-} 
+    border-color: var( --primary-grey-color);
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.bookingform button:hover {
+     background-color:rgb(233, 236, 23) ;
+     font-size: 2.2rem;
+     transition: 1s ease;
+}
 
 .bookingform input[type="text"]:focus {
     border-color: rgb(80, 196, 13);
